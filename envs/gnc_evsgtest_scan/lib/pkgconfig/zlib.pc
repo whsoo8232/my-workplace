@@ -1,0 +1,13 @@
+prefix=/home/gnc/anaconda3/envs/gnc_evsgtest_scan
+exec_prefix=/home/gnc/anaconda3/envs/gnc_evsgtest_scan
+libdir=/home/gnc/anaconda3/envs/gnc_evsgtest_scan/lib
+sharedlibdir=/home/gnc/anaconda3/envs/gnc_evsgtest_scan/lib
+includedir=/home/gnc/anaconda3/envs/gnc_evsgtest_scan/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
