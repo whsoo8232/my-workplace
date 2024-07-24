@@ -11,7 +11,7 @@ def coin_spot_price(coin, currency):
 
 if __name__ == "__main__":
     
-    inputKRW = 5000000  
+    inputKRW = 3950000
     
     KRW_USD = coin_spot_price("KRW","USD")
     USD_KRW = coin_spot_price("USD","KRW")
